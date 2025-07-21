@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 2. Obtain block fee and provider data.
-  - You can use our sample sample data from June 1, 2025 - July 1, 2025 that includes:
+  - You can use our sample sample data from Jan 1, 2025 - July 1, 2025 that includes:
      - `block_fees.csv` - Historical block fee percentiles
      - `fee_provider_estimates.csv` - Fee estimates from providers
   - To do so, run these commands:
