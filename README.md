@@ -10,7 +10,7 @@ This tool compares fee estimation strategies from different providers (AUGUR, WH
 
 1. Install dependencies:
 ```bash
-pip install -r requirements-backtest.txt
+pip install -r requirements.txt
 ```
 
 2. Obtain block fee and provider data.
