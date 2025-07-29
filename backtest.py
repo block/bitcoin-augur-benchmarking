@@ -374,12 +374,12 @@ class FeeEstimatorBacktest:
                     
                     provider_metrics['missed_estimates'] += 1
                     
-                    absolute_diff = min_required_fee - estimated_fee
-                    percent_diff = absolute_diff / min_required_fee * 100
+                    absolute_difference = min_required_fee - estimated_fee
+                    percent_difference = absolute_difference / min_required_fee * 100
                     
                     provider_metrics['underestimates'].append({
-                        'absolute': absolute_diff,
-                        'percent': percent_diff,
+                        'absolute': absolute_difference,
+                        'percent': percent_difference,
                         'blocks_to_confirm': blocks_to_confirm
                     })
                 else:
