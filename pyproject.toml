@@ -1,6 +1,6 @@
 [project]
 name = "bitcoin-augur-benchmarking"
-version = "0.1.0"
+version = "0.3.0"
 description = "A minimal Python tool to reproduce Bitcoin fee estimator benchmark results using exported CSV data"
 readme = "README.md"
 license = { file = "LICENSE.txt" }
